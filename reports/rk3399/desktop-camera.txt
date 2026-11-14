@@ -1,0 +1,70 @@
+/usr/bin/xwininfo
+
+xwininfo: Window id: 0x596 (the root window) (has no name)
+
+  Root window id: 0x596 (the root window) (has no name)
+  Parent window id: 0x0 (none)
+     46 children:
+     0x2c000a7 "Qt Creator": ("qtcreator" "QtCreator")  302x438+167+113  +167+113
+     0x2c00131 "Qt Creator": ("qtcreator" "QtCreator")  202x338+184+129  +184+129
+     0x2c0012c "Qt Creator": ("qtcreator" "QtCreator")  221x364+189+150  +189+150
+     0x2c000c6 "Qt Creator": ("qtcreator" "QtCreator")  251x259+81+474  +81+474
+     0x2c00018 "Qt Creator": ("qtcreator" "QtCreator")  370x468+20+81  +20+81
+     0x2c00038 "Qt Clipboard Requestor Window — Qt Creator": ()  3x3+0+0  +0+0
+     0x2c00010 "Qt Creator": ()  1x1+0+0  +0+0
+     0x2c00004 "Qt Selection Owner for qtcreator": ()  3x3+0+0  +0+0
+     0xe00248 "lxpanel": ("lxpanel" "Lxpanel")  108x52+116+58  +116+58
+        1 child:
+        0xe00249 (has no name): ()  1x1+-1+-1  +115+57
+     0xe001bd "lxpanel": ("lxpanel" "Lxpanel")  116x289+2+34  +2+34
+        1 child:
+        0xe001be (has no name): ()  1x1+-1+-1  +1+33
+     0x200002c (has no name): ()  1x1+3+2  +3+2
+     0x2a0000c (has no name): ()  1x1+-1+-1  +-1+-1
+     0x2a00001 "blueman-tray": ("blueman-tray" "")  10x10+10+10  +10+10
+     0x180000c (has no name): ()  1x1+-1+-1  +-1+-1
+     0x1a00008 (has no name): ()  1x1+-1+-1  +-1+-1
+     0x1c00002 "light-locker": ()  10x10+-100+-100  +-100+-100
+     0x1800001 "pasystray": ("pasystray" "Pasystray")  10x10+10+10  +10+10
+     0x1a00001 "网络管理器小程序": ("nm-applet" "Nm-applet")  10x10+10+10  +10+10
+     0x1e00001 "blueman-applet": ("blueman-applet" "")  10x10+10+10  +10+10
+     0x1600001 "xfce4-power-manager": ("xfce4-power-manager" "Xfce4-power-manager")  10x10+10+10  +10+10
+Driver Info:
+	Driver name      : rkisp1_v0
+	Card type        : rkisp1_mainpath
+	Bus info         : platform:ff920000.rkisp1
+	Driver version   : 4.19.255
+	Capabilities     : 0x84201000
+		Video Capture Multiplanar
+		Streaming
+		Extended Pix Format
+		Device Capabilities
+	Device Caps      : 0x04201000
+		Video Capture Multiplanar
+		Streaming
+		Extended Pix Format
+Media Driver Info:
+	Driver name      : rkisp1
+	Model            : rkisp1
+	Serial           : 
+	Bus info         : 
+	Media version    : 4.19.255
+	Hardware revision: 0x00000000 (0)
+	Driver version   : 4.19.255
+Interface Info:
+	ID               : 0x03000007
+	Type             : V4L Video
+Entity Info:
+	ID               : 0x00000006 (6)
+	Name             : rkisp1_mainpath
+	Function         : V4L2 I/O
+	Pad 0x01000009   : 0: Sink
+	  Link 0x02000025: from remote pad 0x1000004 of entity 'rkisp1-isp-subdev' (Unknown V4L2 Sub-Device): Data, Enabled
+Priority: 2
+Format Video Capture Multiplanar:
+	Width/Height      : 0/0
+	Pixel Format      : ''
+MNN_ARM82:BOOL=ON
+MNN_OPENCL:BOOL=OFF
+MNN_OPENMP:BOOL=ON
+MNN_USE_THREAD_POOL:BOOL=ON

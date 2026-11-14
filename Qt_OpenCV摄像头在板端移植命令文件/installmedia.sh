@@ -1,0 +1,13 @@
+sudo apt install -y libjpeg-dev
+sudo apt install -y libpng-dev
+sudo apt install -y libtiff-dev
+sudo apt install -y libavcodec-dev
+sudo apt install -y libavformat-dev
+sudo apt install -y libswscale-dev
+sudo apt install -y libv4l-dev
+sudo apt install -y libxvidcore-dev
+sudo apt install -y libx264-dev
+sudo apt install -y libatlas-base-dev
+sudo apt install -y gfortran
+sudo apt install -y libgtk-3-dev
+sudo apt install -y libcanberra-gtk3-dev

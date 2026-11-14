@@ -1,0 +1,251 @@
+/home/pi/work/qt/FruitDetect2/FruitDetect2-linux-source-20261108-233552.zip: 成功
+BASIC_BACKUP=/home/pi/work/qt/FruitDetect2/basic-backup-20261109-000204
+-- The CXX compiler identification is GNU 10.2.1
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found OpenCV: /usr/local (found suitable version "4.8.0", minimum required is "4.8") found components: core imgproc imgcodecs videoio dnn objdetect 
+-- Looking for C++ include pthread.h
+-- Looking for C++ include pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Performing Test supports__mcpu_cortex_a72_cortex_a53_crypto_crc
+-- Performing Test supports__mcpu_cortex_a72_cortex_a53_crypto_crc - Success
+-- Performing Test supports__mtune_cortex_a72_cortex_a53
+-- Performing Test supports__mtune_cortex_a72_cortex_a53 - Success
+-- OpenCV 4.8.0: /usr/local/lib/cmake/opencv4
+-- MNN: /usr/local/lib/libMNN.so
+-- CPU inference; Qt GUI; platform camera backend; no model retraining
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/pi/work/qt/FruitDetect2/build-agent-release
+Scanning dependencies of target AdminTests_autogen
+Scanning dependencies of target FruitCore_autogen
+[  3%] Automatic MOC for target AdminTests
+[  6%] Automatic MOC for target FruitCore
+[  6%] Built target FruitCore_autogen
+[  6%] Built target AdminTests_autogen
+Scanning dependencies of target FruitModels
+Scanning dependencies of target FruitCore
+[ 10%] Building CXX object CMakeFiles/FruitCore.dir/FruitCore_autogen/mocs_compilation.cpp.o
+[ 10%] Built target FruitModels
+[ 13%] Building CXX object CMakeFiles/FruitCore.dir/src/detector.cpp.o
+Scanning dependencies of target AdminTests
+[ 16%] Building CXX object CMakeFiles/AdminTests.dir/AdminTests_autogen/mocs_compilation.cpp.o
+[ 20%] Building CXX object CMakeFiles/AdminTests.dir/tests/admin_test.cpp.o
+[ 23%] Linking CXX executable bin/AdminTests
+[ 23%] Built target AdminTests
+[ 26%] Building CXX object CMakeFiles/FruitCore.dir/src/postprocess.cpp.o
+[ 30%] Building CXX object CMakeFiles/FruitCore.dir/src/io.cpp.o
+[ 33%] Linking CXX static library libFruitCore.a
+[ 33%] Built target FruitCore
+Scanning dependencies of target PhotoFaceTests_autogen
+Scanning dependencies of target FruitDetect2Cli_autogen
+[ 36%] Automatic MOC for target PhotoFaceTests
+[ 40%] Automatic MOC for target FruitDetect2Cli
+[ 40%] Built target PhotoFaceTests_autogen
+[ 40%] Built target FruitDetect2Cli_autogen
+Scanning dependencies of target FruitDetect2_autogen
+[ 43%] Automatic MOC for target FruitDetect2
+Scanning dependencies of target PhotoFaceTests
+[ 46%] Building CXX object CMakeFiles/PhotoFaceTests.dir/PhotoFaceTests_autogen/mocs_compilation.cpp.o
+[ 50%] Building CXX object CMakeFiles/PhotoFaceTests.dir/tests/photo_face_test.cpp.o
+[ 50%] Built target FruitDetect2_autogen
+Scanning dependencies of target FruitDetect2Cli
+[ 53%] Building CXX object CMakeFiles/FruitDetect2Cli.dir/FruitDetect2Cli_autogen/mocs_compilation.cpp.o
+[ 56%] Building CXX object CMakeFiles/FruitDetect2Cli.dir/src/cli.cpp.o
+[ 60%] Building CXX object CMakeFiles/PhotoFaceTests.dir/src/face_engine.cpp.o
+[ 63%] Linking CXX executable bin/FruitDetect2Cli
+[ 63%] Built target FruitDetect2Cli
+Scanning dependencies of target FruitDetect2
+[ 66%] Building CXX object CMakeFiles/FruitDetect2.dir/FruitDetect2_autogen/mocs_compilation.cpp.o
+[ 70%] Building CXX object CMakeFiles/FruitDetect2.dir/src/main.cpp.o
+[ 73%] Building CXX object CMakeFiles/PhotoFaceTests.dir/src/photos.cpp.o
+[ 76%] Linking CXX executable bin/PhotoFaceTests
+[ 76%] Built target PhotoFaceTests
+[ 80%] Building CXX object CMakeFiles/FruitDetect2.dir/src/mainwindow.cpp.o
+[ 83%] Building CXX object CMakeFiles/FruitDetect2.dir/src/worker.cpp.o
+[ 86%] Building CXX object CMakeFiles/FruitDetect2.dir/src/photos.cpp.o
+[ 90%] Building CXX object CMakeFiles/FruitDetect2.dir/src/album.cpp.o
+[ 93%] Building CXX object CMakeFiles/FruitDetect2.dir/src/face_engine.cpp.o
+[ 96%] Building CXX object CMakeFiles/FruitDetect2.dir/src/face_dialog.cpp.o
+[100%] Linking CXX executable bin/FruitDetect2
+[100%] Built target FruitDetect2
+	linux-vdso.so.1 (0x0000007f95334000)
+	libQt5Widgets.so.5 => /lib/aarch64-linux-gnu/libQt5Widgets.so.5 (0x0000007f94bd1000)
+	libopencv_videoio.so.408 => /usr/local/lib/libopencv_videoio.so.408 (0x0000007f94b1b000)
+	libopencv_imgcodecs.so.408 => /usr/local/lib/libopencv_imgcodecs.so.408 (0x0000007f949e9000)
+	libopencv_objdetect.so.408 => /usr/local/lib/libopencv_objdetect.so.408 (0x0000007f948f3000)
+	libopencv_dnn.so.408 => /usr/local/lib/libopencv_dnn.so.408 (0x0000007f943ba000)
+	libopencv_imgproc.so.408 => /usr/local/lib/libopencv_imgproc.so.408 (0x0000007f94010000)
+	libopencv_core.so.408 => /usr/local/lib/libopencv_core.so.408 (0x0000007f93d3c000)
+	libMNN.so => /usr/local/lib/libMNN.so (0x0000007f93ac4000)
+	libQt5Gui.so.5 => /lib/aarch64-linux-gnu/libQt5Gui.so.5 (0x0000007f9343f000)
+	libQt5Core.so.5 => /lib/aarch64-linux-gnu/libQt5Core.so.5 (0x0000007f92ed7000)
+	libstdc++.so.6 => /lib/aarch64-linux-gnu/libstdc++.so.6 (0x0000007f92cff000)
+	libm.so.6 => /lib/aarch64-linux-gnu/libm.so.6 (0x0000007f92c54000)
+	libgcc_s.so.1 => /lib/aarch64-linux-gnu/libgcc_s.so.1 (0x0000007f92c30000)
+	libc.so.6 => /lib/aarch64-linux-gnu/libc.so.6 (0x0000007f92abc000)
+	/lib/ld-linux-aarch64.so.1 (0x0000007f95304000)
+	libpthread.so.0 => /lib/aarch64-linux-gnu/libpthread.so.0 (0x0000007f92a8b000)
+	libdc1394.so.25 => /lib/aarch64-linux-gnu/libdc1394.so.25 (0x0000007f92a03000)
+	libgstbase-1.0.so.0 => /lib/aarch64-linux-gnu/libgstbase-1.0.so.0 (0x0000007f92979000)
+	libgstreamer-1.0.so.0 => /lib/aarch64-linux-gnu/libgstreamer-1.0.so.0 (0x0000007f92815000)
+	libgobject-2.0.so.0 => /lib/aarch64-linux-gnu/libgobject-2.0.so.0 (0x0000007f927a8000)
+	libglib-2.0.so.0 => /lib/aarch64-linux-gnu/libglib-2.0.so.0 (0x0000007f92663000)
+	libgstapp-1.0.so.0 => /lib/aarch64-linux-gnu/libgstapp-1.0.so.0 (0x0000007f92641000)
+	libgstriff-1.0.so.0 => /lib/aarch64-linux-gnu/libgstriff-1.0.so.0 (0x0000007f92623000)
+	libgstpbutils-1.0.so.0 => /lib/aarch64-linux-gnu/libgstpbutils-1.0.so.0 (0x0000007f925d6000)
+	libgstaudio-1.0.so.0 => /lib/aarch64-linux-gnu/libgstaudio-1.0.so.0 (0x0000007f92552000)
+	libgstvideo-1.0.so.0 => /lib/aarch64-linux-gnu/libgstvideo-1.0.so.0 (0x0000007f92490000)
+	libavcodec.so.58 => /lib/aarch64-linux-gnu/libavcodec.so.58 (0x0000007f91111000)
+	libavformat.so.58 => /lib/aarch64-linux-gnu/libavformat.so.58 (0x0000007f90e87000)
+	libavutil.so.56 => /lib/aarch64-linux-gnu/libavutil.so.56 (0x0000007f90bd0000)
+	libswscale.so.5 => /lib/aarch64-linux-gnu/libswscale.so.5 (0x0000007f90b4d000)
+	libjpeg.so.62 => /lib/aarch64-linux-gnu/libjpeg.so.62 (0x0000007f90afd000)
+	libpng16.so.16 => /lib/aarch64-linux-gnu/libpng16.so.16 (0x0000007f90ab4000)
+	libtiff.so.5 => /lib/aarch64-linux-gnu/libtiff.so.5 (0x0000007f90a24000)
+	libIlmImf-2_5.so.25 => /lib/aarch64-linux-gnu/libIlmImf-2_5.so.25 (0x0000007f90745000)
+	libopencv_calib3d.so.408 => /usr/local/lib/libopencv_calib3d.so.408 (0x0000007f90598000)
+	libdl.so.2 => /lib/aarch64-linux-gnu/libdl.so.2 (0x0000007f90584000)
+	libz.so.1 => /lib/aarch64-linux-gnu/libz.so.1 (0x0000007f9055a000)
+	libgomp.so.1 => /lib/aarch64-linux-gnu/libgomp.so.1 (0x0000007f9050d000)
+	libGL.so.1 => /lib/aarch64-linux-gnu/libGL.so.1 (0x0000007f90416000)
+	libharfbuzz.so.0 => /lib/aarch64-linux-gnu/libharfbuzz.so.0 (0x0000007f90326000)
+	libmd4c.so.0 => /lib/aarch64-linux-gnu/libmd4c.so.0 (0x0000007f90305000)
+	libdouble-conversion.so.3 => /lib/aarch64-linux-gnu/libdouble-conversion.so.3 (0x0000007f902e1000)
+	libicui18n.so.67 => /lib/aarch64-linux-gnu/libicui18n.so.67 (0x0000007f8ffd7000)
+	libicuuc.so.67 => /lib/aarch64-linux-gnu/libicuuc.so.67 (0x0000007f8fddf000)
+	libpcre2-16.so.0 => /lib/aarch64-linux-gnu/libpcre2-16.so.0 (0x0000007f8fd57000)
+	libzstd.so.1 => /lib/aarch64-linux-gnu/libzstd.so.1 (0x0000007f8fc89000)
+	libraw1394.so.11 => /lib/aarch64-linux-gnu/libraw1394.so.11 (0x0000007f8fc69000)
+	libusb-1.0.so.0 => /lib/aarch64-linux-gnu/libusb-1.0.so.0 (0x0000007f8fc3d000)
+	libgmodule-2.0.so.0 => /lib/aarch64-linux-gnu/libgmodule-2.0.so.0 (0x0000007f8fc29000)
+	libunwind.so.8 => /lib/aarch64-linux-gnu/libunwind.so.8 (0x0000007f8fbea000)
+	libdw.so.1 => /lib/aarch64-linux-gnu/libdw.so.1 (0x0000007f8fb37000)
+	libffi.so.7 => /lib/aarch64-linux-gnu/libffi.so.7 (0x0000007f8fb1e000)
+	libpcre.so.3 => /lib/aarch64-linux-gnu/libpcre.so.3 (0x0000007f8faac000)
+	libgsttag-1.0.so.0 => /lib/aarch64-linux-gnu/libgsttag-1.0.so.0 (0x0000007f8fa5d000)
+	liborc-0.4.so.0 => /lib/aarch64-linux-gnu/liborc-0.4.so.0 (0x0000007f8f9ca000)
+	librga.so.2 => /lib/aarch64-linux-gnu/librga.so.2 (0x0000007f8f983000)
+	libswresample.so.3 => /lib/aarch64-linux-gnu/libswresample.so.3 (0x0000007f8f95b000)
+	libvpx.so.6 => /lib/aarch64-linux-gnu/libvpx.so.6 (0x0000007f8f7ad000)
+	libwebpmux.so.3 => /lib/aarch64-linux-gnu/libwebpmux.so.3 (0x0000007f8f794000)
+	libwebp.so.6 => /lib/aarch64-linux-gnu/libwebp.so.6 (0x0000007f8f732000)
+	liblzma.so.5 => /lib/aarch64-linux-gnu/liblzma.so.5 (0x0000007f8f6fc000)
+	librockchip_mpp.so.1 => /lib/aarch64-linux-gnu/librockchip_mpp.so.1 (0x0000007f8f4c9000)
+	librsvg-2.so.2 => /lib/aarch64-linux-gnu/librsvg-2.so.2 (0x0000007f8ebce000)
+	libcairo.so.2 => /lib/aarch64-linux-gnu/libcairo.so.2 (0x0000007f8eaa5000)
+	libzvbi.so.0 => /lib/aarch64-linux-gnu/libzvbi.so.0 (0x0000007f8ea0b000)
+	libsnappy.so.1 => /lib/aarch64-linux-gnu/libsnappy.so.1 (0x0000007f8e9f2000)
+	libaom.so.0 => /lib/aarch64-linux-gnu/libaom.so.0 (0x0000007f8e6e2000)
+	libcodec2.so.0.9 => /lib/aarch64-linux-gnu/libcodec2.so.0.9 (0x0000007f8d8f2000)
+	libgsm.so.1 => /lib/aarch64-linux-gnu/libgsm.so.1 (0x0000007f8d8d7000)
+	libmp3lame.so.0 => /lib/aarch64-linux-gnu/libmp3lame.so.0 (0x0000007f8d857000)
+	libopenjp2.so.7 => /lib/aarch64-linux-gnu/libopenjp2.so.7 (0x0000007f8d7f1000)
+	libopus.so.0 => /lib/aarch64-linux-gnu/libopus.so.0 (0x0000007f8d793000)
+	libshine.so.3 => /lib/aarch64-linux-gnu/libshine.so.3 (0x0000007f8d779000)
+	libspeex.so.1 => /lib/aarch64-linux-gnu/libspeex.so.1 (0x0000007f8d750000)
+	libtheoraenc.so.1 => /lib/aarch64-linux-gnu/libtheoraenc.so.1 (0x0000007f8d70f000)
+	libtheoradec.so.1 => /lib/aarch64-linux-gnu/libtheoradec.so.1 (0x0000007f8d6e6000)
+	libtwolame.so.0 => /lib/aarch64-linux-gnu/libtwolame.so.0 (0x0000007f8d6b4000)
+	libvorbis.so.0 => /lib/aarch64-linux-gnu/libvorbis.so.0 (0x0000007f8d67b000)
+	libvorbisenc.so.2 => /lib/aarch64-linux-gnu/libvorbisenc.so.2 (0x0000007f8d5cb000)
+	libwavpack.so.1 => /lib/aarch64-linux-gnu/libwavpack.so.1 (0x0000007f8d593000)
+	libx264.so.160 => /lib/aarch64-linux-gnu/libx264.so.160 (0x0000007f8d343000)
+	libx265.so.192 => /lib/aarch64-linux-gnu/libx265.so.192 (0x0000007f8d073000)
+	libxvidcore.so.4 => /lib/aarch64-linux-gnu/libxvidcore.so.4 (0x0000007f8cf82000)
+	libva.so.2 => /lib/aarch64-linux-gnu/libva.so.2 (0x0000007f8cf47000)
+	libxml2.so.2 => /lib/aarch64-linux-gnu/libxml2.so.2 (0x0000007f8cd94000)
+	libbz2.so.1.0 => /lib/aarch64-linux-gnu/libbz2.so.1.0 (0x0000007f8cd73000)
+	libgme.so.0 => /lib/aarch64-linux-gnu/libgme.so.0 (0x0000007f8cd1c000)
+	libopenmpt.so.0 => /lib/aarch64-linux-gnu/libopenmpt.so.0 (0x0000007f8cb4a000)
+	libbluray.so.2 => /lib/aarch64-linux-gnu/libbluray.so.2 (0x0000007f8caf2000)
+	libgnutls.so.30 => /lib/aarch64-linux-gnu/libgnutls.so.30 (0x0000007f8c8d1000)
+	librabbitmq.so.4 => /lib/aarch64-linux-gnu/librabbitmq.so.4 (0x0000007f8c8a9000)
+	libssh-gcrypt.so.4 => /lib/aarch64-linux-gnu/libssh-gcrypt.so.4 (0x0000007f8c80d000)
+	libzmq.so.5 => /lib/aarch64-linux-gnu/libzmq.so.5 (0x0000007f8c747000)
+	libva-drm.so.2 => /lib/aarch64-linux-gnu/libva-drm.so.2 (0x0000007f8c734000)
+	libva-x11.so.2 => /lib/aarch64-linux-gnu/libva-x11.so.2 (0x0000007f8c71e000)
+	libvdpau.so.1 => /lib/aarch64-linux-gnu/libvdpau.so.1 (0x0000007f8c708000)
+	libX11.so.6 => /lib/aarch64-linux-gnu/libX11.so.6 (0x0000007f8c5b9000)
+	libdrm.so.2 => /lib/aarch64-linux-gnu/libdrm.so.2 (0x0000007f8c595000)
+	libjbig.so.0 => /lib/aarch64-linux-gnu/libjbig.so.0 (0x0000007f8c578000)
+	libdeflate.so.0 => /lib/aarch64-linux-gnu/libdeflate.so.0 (0x0000007f8c554000)
+	libImath-2_5.so.25 => /lib/aarch64-linux-gnu/libImath-2_5.so.25 (0x0000007f8c531000)
+	libIlmThread-2_5.so.25 => /lib/aarch64-linux-gnu/libIlmThread-2_5.so.25 (0x0000007f8c519000)
+	libHalf-2_5.so.25 => /lib/aarch64-linux-gnu/libHalf-2_5.so.25 (0x0000007f8c4c6000)
+	libIex-2_5.so.25 => /lib/aarch64-linux-gnu/libIex-2_5.so.25 (0x0000007f8c443000)
+	libopencv_features2d.so.408 => /usr/local/lib/libopencv_features2d.so.408 (0x0000007f8c3a1000)
+	libopencv_flann.so.408 => /usr/local/lib/libopencv_flann.so.408 (0x0000007f8c31d000)
+	libGLdispatch.so.0 => /lib/aarch64-linux-gnu/libGLdispatch.so.0 (0x0000007f8c192000)
+	libGLX.so.0 => /lib/aarch64-linux-gnu/libGLX.so.0 (0x0000007f8c14f000)
+	libfreetype.so.6 => /lib/aarch64-linux-gnu/libfreetype.so.6 (0x0000007f8c08a000)
+	libgraphite2.so.3 => /lib/aarch64-linux-gnu/libgraphite2.so.3 (0x0000007f8c058000)
+	libicudata.so.67 => /lib/aarch64-linux-gnu/libicudata.so.67 (0x0000007f8a52f000)
+	libudev.so.1 => /lib/aarch64-linux-gnu/libudev.so.1 (0x0000007f8a4f8000)
+	libelf.so.1 => /lib/aarch64-linux-gnu/libelf.so.1 (0x0000007f8a4cd000)
+	libsoxr.so.0 => /lib/aarch64-linux-gnu/libsoxr.so.0 (0x0000007f8a466000)
+	libcairo-gobject.so.2 => /lib/aarch64-linux-gnu/libcairo-gobject.so.2 (0x0000007f8a44a000)
+	libgdk_pixbuf-2.0.so.0 => /lib/aarch64-linux-gnu/libgdk_pixbuf-2.0.so.0 (0x0000007f8a416000)
+	libgio-2.0.so.0 => /lib/aarch64-linux-gnu/libgio-2.0.so.0 (0x0000007f8a210000)
+	libpangocairo-1.0.so.0 => /lib/aarch64-linux-gnu/libpangocairo-1.0.so.0 (0x0000007f8a1f1000)
+	libpango-1.0.so.0 => /lib/aarch64-linux-gnu/libpango-1.0.so.0 (0x0000007f8a190000)
+	libpixman-1.so.0 => /lib/aarch64-linux-gnu/libpixman-1.so.0 (0x0000007f8a11b000)
+	libfontconfig.so.1 => /lib/aarch64-linux-gnu/libfontconfig.so.1 (0x0000007f8a0c6000)
+	libxcb-shm.so.0 => /lib/aarch64-linux-gnu/libxcb-shm.so.0 (0x0000007f8a0b2000)
+	libxcb.so.1 => /lib/aarch64-linux-gnu/libxcb.so.1 (0x0000007f8a07a000)
+	libxcb-render.so.0 => /lib/aarch64-linux-gnu/libxcb-render.so.0 (0x0000007f8a05d000)
+	libXrender.so.1 => /lib/aarch64-linux-gnu/libXrender.so.1 (0x0000007f8a044000)
+	libXext.so.6 => /lib/aarch64-linux-gnu/libXext.so.6 (0x0000007f8a01e000)
+	libogg.so.0 => /lib/aarch64-linux-gnu/libogg.so.0 (0x0000007f8a004000)
+	libnuma.so.1 => /lib/aarch64-linux-gnu/libnuma.so.1 (0x0000007f89fe4000)
+	libmpg123.so.0 => /lib/aarch64-linux-gnu/libmpg123.so.0 (0x0000007f89f83000)
+	libvorbisfile.so.3 => /lib/aarch64-linux-gnu/libvorbisfile.so.3 (0x0000007f89f68000)
+	libudfread.so.0 => /lib/aarch64-linux-gnu/libudfread.so.0 (0x0000007f89f4f000)
+	libp11-kit.so.0 => /lib/aarch64-linux-gnu/libp11-kit.so.0 (0x0000007f89e00000)
+	libidn2.so.0 => /lib/aarch64-linux-gnu/libidn2.so.0 (0x0000007f89dd0000)
+	libunistring.so.2 => /lib/aarch64-linux-gnu/libunistring.so.2 (0x0000007f89c44000)
+	libtasn1.so.6 => /lib/aarch64-linux-gnu/libtasn1.so.6 (0x0000007f89c1e000)
+	libnettle.so.8 => /lib/aarch64-linux-gnu/libnettle.so.8 (0x0000007f89bcb000)
+	libhogweed.so.6 => /lib/aarch64-linux-gnu/libhogweed.so.6 (0x0000007f89b73000)
+	libgmp.so.10 => /lib/aarch64-linux-gnu/libgmp.so.10 (0x0000007f89aeb000)
+	libssl.so.1.1 => /lib/aarch64-linux-gnu/libssl.so.1.1 (0x0000007f89a4e000)
+	libcrypto.so.1.1 => /lib/aarch64-linux-gnu/libcrypto.so.1.1 (0x0000007f8979d000)
+	libgcrypt.so.20 => /lib/aarch64-linux-gnu/libgcrypt.so.20 (0x0000007f896cd000)
+	libgpg-error.so.0 => /lib/aarch64-linux-gnu/libgpg-error.so.0 (0x0000007f8969a000)
+	libgssapi_krb5.so.2 => /lib/aarch64-linux-gnu/libgssapi_krb5.so.2 (0x0000007f8963c000)
+	libbsd.so.0 => /lib/aarch64-linux-gnu/libbsd.so.0 (0x0000007f89617000)
+	libsodium.so.23 => /lib/aarch64-linux-gnu/libsodium.so.23 (0x0000007f895cd000)
+	libpgm-5.3.so.0 => /lib/aarch64-linux-gnu/libpgm-5.3.so.0 (0x0000007f89569000)
+	libnorm.so.1 => /lib/aarch64-linux-gnu/libnorm.so.1 (0x0000007f89434000)
+	libXfixes.so.3 => /lib/aarch64-linux-gnu/libXfixes.so.3 (0x0000007f8941e000)
+	libbrotlidec.so.1 => /lib/aarch64-linux-gnu/libbrotlidec.so.1 (0x0000007f89403000)
+	libmount.so.1 => /lib/aarch64-linux-gnu/libmount.so.1 (0x0000007f89390000)
+	libselinux.so.1 => /lib/aarch64-linux-gnu/libselinux.so.1 (0x0000007f89355000)
+	libresolv.so.2 => /lib/aarch64-linux-gnu/libresolv.so.2 (0x0000007f8932e000)
+	libpangoft2-1.0.so.0 => /lib/aarch64-linux-gnu/libpangoft2-1.0.so.0 (0x0000007f89307000)
+	libfribidi.so.0 => /lib/aarch64-linux-gnu/libfribidi.so.0 (0x0000007f892dc000)
+	libthai.so.0 => /lib/aarch64-linux-gnu/libthai.so.0 (0x0000007f892c1000)
+	libexpat.so.1 => /lib/aarch64-linux-gnu/libexpat.so.1 (0x0000007f89289000)
+	libuuid.so.1 => /lib/aarch64-linux-gnu/libuuid.so.1 (0x0000007f89271000)
+	libXau.so.6 => /lib/aarch64-linux-gnu/libXau.so.6 (0x0000007f8925d000)
+	libXdmcp.so.6 => /lib/aarch64-linux-gnu/libXdmcp.so.6 (0x0000007f89247000)
+	libkrb5.so.3 => /lib/aarch64-linux-gnu/libkrb5.so.3 (0x0000007f8915c000)
+	libk5crypto.so.3 => /lib/aarch64-linux-gnu/libk5crypto.so.3 (0x0000007f8911e000)
+	libcom_err.so.2 => /lib/aarch64-linux-gnu/libcom_err.so.2 (0x0000007f8910a000)
+	libkrb5support.so.0 => /lib/aarch64-linux-gnu/libkrb5support.so.0 (0x0000007f890ed000)
+	libmd.so.0 => /lib/aarch64-linux-gnu/libmd.so.0 (0x0000007f890d1000)
+	libbrotlicommon.so.1 => /lib/aarch64-linux-gnu/libbrotlicommon.so.1 (0x0000007f8909e000)
+	libblkid.so.1 => /lib/aarch64-linux-gnu/libblkid.so.1 (0x0000007f8903a000)
+	libpcre2-8.so.0 => /lib/aarch64-linux-gnu/libpcre2-8.so.0 (0x0000007f88fa8000)
+	libdatrie.so.1 => /lib/aarch64-linux-gnu/libdatrie.so.1 (0x0000007f88f90000)
+	libkeyutils.so.1 => /lib/aarch64-linux-gnu/libkeyutils.so.1 (0x0000007f88f7b000)
+RK3399_BUILD_PASS

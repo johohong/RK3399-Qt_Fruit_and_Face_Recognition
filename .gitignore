@@ -1,0 +1,103 @@
+# ===== 构建输出 =====
+build-*/
+build/
+cmake-build-*/
+bin/
+lib/
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.so.*
+*.dll
+*.dylib
+*.exe
+*.out
+*.app
+
+# ===== CMake 缓存 =====
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+cmake_install.cmake
+install_manifest.cmake
+compile_commands.json
+CTestTestfile.cmake
+Testing/
+Makefile
+Makefile2
+.cmake/
+
+# ===== Qt / Qt Creator 用户配置（含本机绝对路径，不要入库） =====
+*.pro.user
+*.pro.user.*
+CMakeLists.txt.user
+CMakeLists.txt.user.*
+*.autosave
+.qmake.stash
+.qmake.cache
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+ui_*.h
+*_autogen/
+.autogen/
+
+# ===== 大体积模型与二进制（用脚本下载，见 README 第六节） =====
+face-models/*.onnx
+third_party/mnn-windows/
+*.mnn.tmp
+
+# 水果模型随仓库提供（12 MB，在 GitHub 100 MB 限制内）
+!models/trained_fp32.mnn
+
+# ===== 运行时数据（含用户照片与密码，禁止入库） =====
+photos/
+face_library/
+photo-settings.ini
+admin-credentials.json
+*.log
+*.pid
+performance-*.json
+fruit-result.json
+
+# 保留 reports/ 下的验证证据（含子目录，*.log 与 *.pid 的排除不影响这里）
+!reports/**
+!reports/*.log
+!reports/**/*.log
+!reports/**/*.txt
+!reports/**/*.json
+!reports/**/*.md
+
+# ===== 备份目录 =====
+backup-basic-*/
+basic-backup-*/
+*.bak
+*.orig
+
+# ===== 压缩包与镜像（体积过大，见 README 第十一节） =====
+*.zip
+*.rar
+*.7z
+*.tar
+*.tar.gz
+*.tgz
+*.img
+*.iso
+
+# ===== 编辑器 / 系统 =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== 临时文件 =====
+*.tmp
+*.temp
+tmp/
+temp/

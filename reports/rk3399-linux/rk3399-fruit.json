@@ -1,0 +1,40 @@
+{
+    "detections": [
+        {
+            "class_id": 0,
+            "class_name": "apple",
+            "confidence": 0.9103459119796753,
+            "xyxy": [
+                44.17691421508789,
+                46.99895095825195,
+                347.3513488769531,
+                305.7397155761719
+            ]
+        }
+    ],
+    "error": "",
+    "height": 428,
+    "image": "/home/pi/work/qt/FruitDetect2/FruitDetect2/tests/fixtures/apple_12.jpg",
+    "model": "/home/pi/work/qt/FruitDetect2/build-agent-release/bin/models/trained_fp32.mnn",
+    "ok": true,
+    "protocol": "ultralytics_single_head",
+    "samples": [
+        {
+            "inference": 637.263461,
+            "postprocess": 1.026364,
+            "preprocess": 56.967715,
+            "total": 695.25754
+        }
+    ],
+    "threads": 4,
+    "timing_ms": {
+        "inference": 637.263461,
+        "postprocess": 1.026364,
+        "preprocess": 56.967715,
+        "total": 695.25754
+    },
+    "total_ms_p50": 695.25754,
+    "total_ms_p95": 695.25754,
+    "warmup": 0,
+    "width": 450
+}

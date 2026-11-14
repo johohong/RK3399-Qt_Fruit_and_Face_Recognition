@@ -1,0 +1,40 @@
+{
+    "detections": [
+        {
+            "class_id": 0,
+            "class_name": "apple",
+            "confidence": 0.9103453159332275,
+            "xyxy": [
+                44.14701461791992,
+                46.97804260253906,
+                347.40301513671875,
+                305.7503662109375
+            ]
+        }
+    ],
+    "error": "",
+    "height": 428,
+    "image": "E:\\Tool\\Qt\\Project\\FruitDetect2\\FruitDetect2\\tests\\fixtures\\apple_12.jpg",
+    "model": "E:/Tool/Qt/Project/FruitDetect2/build-cmake-check/bin/models/trained_fp32.mnn",
+    "ok": true,
+    "protocol": "ultralytics_single_head",
+    "samples": [
+        {
+            "inference": 23.4324,
+            "postprocess": 0.1367,
+            "preprocess": 6.7862,
+            "total": 30.3553
+        }
+    ],
+    "threads": 4,
+    "timing_ms": {
+        "inference": 23.4324,
+        "postprocess": 0.1367,
+        "preprocess": 6.7862,
+        "total": 30.3553
+    },
+    "total_ms_p50": 30.3553,
+    "total_ms_p95": 30.3553,
+    "warmup": 0,
+    "width": 450
+}

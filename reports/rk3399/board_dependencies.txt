@@ -1,0 +1,127 @@
+cmake_minimum_required(VERSION 3.5)
+
+project(FruitDetect2 LANGUAGES CXX)
+
+set(CMAKE_INCLUDE_CURRENT_DIR ON)
+
+set(CMAKE_AUTOUIC ON)
+set(CMAKE_AUTOMOC ON)
+set(CMAKE_AUTORCC ON)
+
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+# QtCreator supports the following variables for Android, which are identical to qmake Android variables.
+# Check https://doc.qt.io/qt/deployment-android.html for more information.
+# They need to be set before the find_package( ...) calls below.
+
+#if(ANDROID)
+#    set(ANDROID_PACKAGE_SOURCE_DIR "${CMAKE_CURRENT_SOURCE_DIR}/android")
+#    if (ANDROID_ABI STREQUAL "armeabi-v7a")
+#        set(ANDROID_EXTRA_LIBS
+#            ${CMAKE_CURRENT_SOURCE_DIR}/path/to/libcrypto.so
+#            ${CMAKE_CURRENT_SOURCE_DIR}/path/to/libssl.so)
+#    endif()
+#endif()
+
+find_package(QT NAMES Qt6 Qt5 COMPONENTS Widgets REQUIRED)
+find_package(Qt${QT_VERSION_MAJOR} COMPONENTS Widgets REQUIRED)
+
+set(PROJECT_SOURCES
+        main.cpp
+        mainwindow.cpp
+        mainwindow.h
+)
+
+if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
+    qt_add_executable(FruitDetect2
+        ${PROJECT_SOURCES}
+    )
+else()
+    if(ANDROID)
+        add_library(FruitDetect2 SHARED
+            ${PROJECT_SOURCES}
+        )
+    else()
+        add_executable(FruitDetect2
+            ${PROJECT_SOURCES}
+        )
+    endif()
+endif()
+
+target_link_libraries(FruitDetect2 PRIVATE Qt${QT_VERSION_MAJOR}::Widgets)
+总用量 48
+drwxr-xr-x 2 pi pi  4096 11月  8 23:52 .
+drwxr-xr-x 5 pi pi  4096 11月  8 23:46 ..
+-rw-r--r-- 1 pi pi  1401 11月  8 23:52 CMakeLists.txt
+-rw-r--r-- 1 pi pi 21940 11月  8 23:44 CMakeLists.txt.user
+-rw-r--r-- 1 pi pi   172 11月  8 23:44 main.cpp
+-rw-r--r-- 1 pi pi   127 11月  8 23:44 mainwindow.cpp
+-rw-r--r-- 1 pi pi   217 11月  8 23:44 mainwindow.h
+#define MNN_VERSION_MAJOR 3
+#define MNN_VERSION_MINOR 6
+#define MNN_VERSION_PATCH 2
+#define MNN_VERSION STR(MNN_VERSION_MAJOR) "." STR(MNN_VERSION_MINOR) "." STR(MNN_VERSION_PATCH)
+/usr/local/lib/libMNN.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (GNU/Linux), dynamically linked, BuildID[sha1]=73f73c1301b54bcd9fb4859da1d95950ee8b13da, not stripped
+/usr/local/lib/libMNN.so
+BUILD_opencv_dnn:BOOL=ON
+BUILD_opencv_face:BOOL=OFF
+BUILD_opencv_objdetect:BOOL=ON
+CMAKE_CXX_FLAGS:STRING=-mcpu=cortex-a72.cortex-a53+crypto+crc -mtune=cortex-a72.cortex-a53
+CPU_BASELINE:STRING=NEON
+CPU_DISPATCH:STRING=NEON
+MKL_WITH_OPENMP:BOOL=OFF
+WITH_OPENCL:BOOL=OFF
+WITH_OPENMP:BOOL=ON
+-rw------- 1 pi pi 221 11月  8 21:51 /home/pi/.Xauthority
+ioctl: VIDIOC_ENUM_FMT
+	Type: Video Capture Multiplanar
+
+	[0]: 'YUYV' (YUYV 4:2:2)
+		Size: Stepwise 32x16 - 800x600 with step 8/8
+	[1]: '422P' (Planar YUV 4:2:2)
+		Size: Stepwise 32x16 - 800x600 with step 8/8
+	[2]: 'NV16' (Y/CbCr 4:2:2)
+		Size: Stepwise 32x16 - 800x600 with step 8/8
+	[3]: 'NV61' (Y/CrCb 4:2:2)
+		Size: Stepwise 32x16 - 800x600 with step 8/8
+	[4]: 'YM16' (Planar YUV 4:2:2 (N-C))
+		Size: Stepwise 32x16 - 800x600 with step 8/8
+	[5]: 'NV21' (Y/CrCb 4:2:0)
+		Size: Stepwise 32x16 - 800x600 with step 8/8
+	[6]: 'NV12' (Y/CbCr 4:2:0)
+		Size: Stepwise 32x16 - 800x600 with step 8/8
+	[7]: 'NM21' (Y/CrCb 4:2:0 (N-C))
+		Size: Stepwise 32x16 - 800x600 with step 8/8
+	[8]: 'NM12' (Y/CbCr 4:2:0 (N-C))
+		Size: Stepwise 32x16 - 800x600 with step 8/8
+	[9]: 'YU12' (Planar YUV 4:2:0)
+		Size: Stepwise 32x16 - 800x600 with step 8/8
+	[10]: 'YM24' (Planar YUV 4:4:4 (N-C))
+		Size: Stepwise 32x16 - 800x600 with step 8/8
+	[11]: 'RGGB' (8-bit Bayer RGRG/GBGB)
+		Size: Stepwise 32x16 - 800x600 with step 8/8
+	[12]: 'GRBG' (8-bit Bayer GRGR/BGBG)
+		Size: Stepwise 32x16 - 800x600 with step 8/8
+	[13]: 'GBRG' (8-bit Bayer GBGB/RGRG)
+		Size: Stepwise 32x16 - 800x600 with step 8/8
+	[14]: 'BA81' (8-bit Bayer BGBG/GRGR)
+		Size: Stepwise 32x16 - 800x600 with step 8/8
+	[15]: 'RG10' (10-bit Bayer RGRG/GBGB)
+		Size: Stepwise 32x16 - 800x600 with step 8/8
+	[16]: 'BA10' (10-bit Bayer GRGR/BGBG)
+		Size: Stepwise 32x16 - 800x600 with step 8/8
+	[17]: 'GB10' (10-bit Bayer GBGB/RGRG)
+		Size: Stepwise 32x16 - 800x600 with step 8/8
+	[18]: 'BG10' (10-bit Bayer BGBG/GRGR)
+		Size: Stepwise 32x16 - 800x600 with step 8/8
+	[19]: 'RG12' (12-bit Bayer RGRG/GBGB)
+		Size: Stepwise 32x16 - 800x600 with step 8/8
+	[20]: 'BA12' (12-bit Bayer GRGR/BGBG)
+		Size: Stepwise 32x16 - 800x600 with step 8/8
+	[21]: 'GB12' (12-bit Bayer GBGB/RGRG)
+		Size: Stepwise 32x16 - 800x600 with step 8/8
+	[22]: 'BG12' (12-bit Bayer BGBG/GRGR)
+		Size: Stepwise 32x16 - 800x600 with step 8/8
+/usr/bin/xwd
+4.8.0

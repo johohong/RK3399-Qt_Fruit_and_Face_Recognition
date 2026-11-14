@@ -1,0 +1,16 @@
+{
+  "host": "192.168.1.8",
+  "port": 22,
+  "username": "pi",
+  "authentication_method": "password",
+  "private_key_absolute_path": null,
+  "existing_project_absolute_path": "/home/pi/work/qt/FruitDetect2/FruitDetect2",
+  "execution_root_absolute_path": "/home/pi/work/qt/FruitDetect2",
+  "display": ":0",
+  "xauthority_absolute_path": "/home/pi/.Xauthority",
+  "opencv_config": "/usr/local/lib/cmake/opencv4",
+  "mnn_library": "/usr/local/lib/libMNN.so",
+  "mnn_version": "3.6.2",
+  "camera": "/dev/v4l/by-id/usb-ARKMICRO_USB2.0_PC_CAMERA-video-index0",
+  "executable": "/home/pi/work/qt/FruitDetect2/build-agent-release/bin/FruitDetect2"
+}

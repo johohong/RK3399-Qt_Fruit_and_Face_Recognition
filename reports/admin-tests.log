@@ -1,0 +1,27 @@
+PASS temporary test directory
+PASS default password
+PASS wrong password rejected
+PASS length boundaries 3-9
+QFontDatabase: Cannot find font directory E:/Tool/Qt/Project/FruitDetect2/build-cmake-check/bin/lib/fonts.
+Note that Qt no longer ships fonts. Deploy some (from https://dejavu-fonts.github.io/ for example) or switch to fontconfig.
+QFontDatabase: Cannot find font directory E:/Tool/Qt/Project/FruitDetect2/build-cmake-check/bin/lib/fonts.
+Note that Qt no longer ships fonts. Deploy some (from https://dejavu-fonts.github.io/ for example) or switch to fontconfig.
+QFontDatabase: Cannot find font directory E:/Tool/Qt/Project/FruitDetect2/build-cmake-check/bin/lib/fonts.
+Note that Qt no longer ships fonts. Deploy some (from https://dejavu-fonts.github.io/ for example) or switch to fontconfig.
+QFontDatabase: Cannot find font directory E:/Tool/Qt/Project/FruitDetect2/build-cmake-check/bin/lib/fonts.
+Note that Qt no longer ships fonts. Deploy some (from https://dejavu-fonts.github.io/ for example) or switch to fontconfig.
+QFontDatabase: Cannot find font directory E:/Tool/Qt/Project/FruitDetect2/build-cmake-check/bin/lib/fonts.
+Note that Qt no longer ships fonts. Deploy some (from https://dejavu-fonts.github.io/ for example) or switch to fontconfig.
+PASS change password stays selected for color feedback
+PASS old password must be verified
+PASS UI rejects short password
+PASS mismatch keeps old password
+PASS successful change confirmation
+PASS password survives reload and invalidates old password
+PASS new password login
+PASS exit cancels login
+PASS read saved password file
+PASS password not stored in plaintext
+PASS write corrupt test file
+PASS corrupt file does not restore default password
+ADMIN_TESTS_PASS

@@ -1,0 +1,33 @@
+PASS temporary directory
+PASS unique photo filenames and Unicode paths: 
+PASS saved photo decodes
+PASS album lists saved photos
+PASS empty photo rejected
+PASS relative directory rejected
+PASS model load: ????????????????��??
+PASS face fixture decodes
+QFontDatabase: Cannot find font directory E:/Tool/Qt/Project/FruitDetect2/build-cmake-check/bin/lib/fonts.
+Note that Qt no longer ships fonts. Deploy some (from https://dejavu-fonts.github.io/ for example) or switch to fontconfig.
+QFontDatabase: Cannot find font directory E:/Tool/Qt/Project/FruitDetect2/build-cmake-check/bin/lib/fonts.
+Note that Qt no longer ships fonts. Deploy some (from https://dejavu-fonts.github.io/ for example) or switch to fontconfig.
+QFontDatabase: Cannot find font directory E:/Tool/Qt/Project/FruitDetect2/build-cmake-check/bin/lib/fonts.
+Note that Qt no longer ships fonts. Deploy some (from https://dejavu-fonts.github.io/ for example) or switch to fontconfig.
+QFontDatabase: Cannot find font directory E:/Tool/Qt/Project/FruitDetect2/build-cmake-check/bin/lib/fonts.
+Note that Qt no longer ships fonts. Deploy some (from https://dejavu-fonts.github.io/ for example) or switch to fontconfig.
+QFontDatabase: Cannot find font directory E:/Tool/Qt/Project/FruitDetect2/build-cmake-check/bin/lib/fonts.
+Note that Qt no longer ships fonts. Deploy some (from https://dejavu-fonts.github.io/ for example) or switch to fontconfig.
+PASS empty gallery is distinct from unknown person
+PASS enroll: ???? ?????????1 ???????????? 1 ??
+PASS multiple samples per name
+PASS enrolled fixture matches
+PASS unregistered fixture is stranger
+PASS identity database reload
+PASS persisted feature matches
+PASS no-face enrollment rejected
+PASS no face reported explicitly
+PASS empty name rejected
+PASS missing model rejected
+PASS unloaded model is an error
+PASS open test database
+PASS corrupt database rejected
+PHOTO_FACE_TESTS_PASS

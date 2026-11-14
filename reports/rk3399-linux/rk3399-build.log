@@ -1,0 +1,52 @@
+Scanning dependencies of target AdminTests_autogen
+Scanning dependencies of target FruitCore_autogen
+[  3%] Automatic MOC for target AdminTests
+[  6%] Automatic MOC for target FruitCore
+[  6%] Built target FruitCore_autogen
+[  6%] Built target AdminTests_autogen
+Scanning dependencies of target FruitModels
+Scanning dependencies of target FruitCore
+[ 10%] Building CXX object CMakeFiles/FruitCore.dir/FruitCore_autogen/mocs_compilation.cpp.o
+[ 10%] Built target FruitModels
+[ 13%] Building CXX object CMakeFiles/FruitCore.dir/src/detector.cpp.o
+Scanning dependencies of target AdminTests
+[ 16%] Building CXX object CMakeFiles/AdminTests.dir/AdminTests_autogen/mocs_compilation.cpp.o
+[ 20%] Building CXX object CMakeFiles/AdminTests.dir/tests/admin_test.cpp.o
+[ 23%] Linking CXX executable bin/AdminTests
+[ 23%] Built target AdminTests
+[ 26%] Building CXX object CMakeFiles/FruitCore.dir/src/postprocess.cpp.o
+[ 30%] Building CXX object CMakeFiles/FruitCore.dir/src/io.cpp.o
+[ 33%] Linking CXX static library libFruitCore.a
+[ 33%] Built target FruitCore
+Scanning dependencies of target PhotoFaceTests_autogen
+Scanning dependencies of target FruitDetect2Cli_autogen
+[ 36%] Automatic MOC for target PhotoFaceTests
+[ 40%] Automatic MOC for target FruitDetect2Cli
+[ 40%] Built target PhotoFaceTests_autogen
+[ 40%] Built target FruitDetect2Cli_autogen
+Scanning dependencies of target FruitDetect2_autogen
+[ 43%] Automatic MOC for target FruitDetect2
+Scanning dependencies of target PhotoFaceTests
+[ 46%] Building CXX object CMakeFiles/PhotoFaceTests.dir/PhotoFaceTests_autogen/mocs_compilation.cpp.o
+[ 50%] Building CXX object CMakeFiles/PhotoFaceTests.dir/tests/photo_face_test.cpp.o
+[ 50%] Built target FruitDetect2_autogen
+Scanning dependencies of target FruitDetect2Cli
+[ 53%] Building CXX object CMakeFiles/FruitDetect2Cli.dir/FruitDetect2Cli_autogen/mocs_compilation.cpp.o
+[ 56%] Building CXX object CMakeFiles/FruitDetect2Cli.dir/src/cli.cpp.o
+[ 60%] Building CXX object CMakeFiles/PhotoFaceTests.dir/src/face_engine.cpp.o
+[ 63%] Linking CXX executable bin/FruitDetect2Cli
+[ 63%] Built target FruitDetect2Cli
+Scanning dependencies of target FruitDetect2
+[ 66%] Building CXX object CMakeFiles/FruitDetect2.dir/FruitDetect2_autogen/mocs_compilation.cpp.o
+[ 70%] Building CXX object CMakeFiles/FruitDetect2.dir/src/main.cpp.o
+[ 73%] Building CXX object CMakeFiles/PhotoFaceTests.dir/src/photos.cpp.o
+[ 76%] Linking CXX executable bin/PhotoFaceTests
+[ 76%] Built target PhotoFaceTests
+[ 80%] Building CXX object CMakeFiles/FruitDetect2.dir/src/mainwindow.cpp.o
+[ 83%] Building CXX object CMakeFiles/FruitDetect2.dir/src/worker.cpp.o
+[ 86%] Building CXX object CMakeFiles/FruitDetect2.dir/src/photos.cpp.o
+[ 90%] Building CXX object CMakeFiles/FruitDetect2.dir/src/album.cpp.o
+[ 93%] Building CXX object CMakeFiles/FruitDetect2.dir/src/face_engine.cpp.o
+[ 96%] Building CXX object CMakeFiles/FruitDetect2.dir/src/face_dialog.cpp.o
+[100%] Linking CXX executable bin/FruitDetect2
+[100%] Built target FruitDetect2

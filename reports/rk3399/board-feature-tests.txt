@@ -1,0 +1,40 @@
+PASS temporary test directory
+PASS default password
+PASS wrong password rejected
+PASS length boundaries 3-9
+PASS change password stays selected for color feedback
+PASS old password must be verified
+PASS UI rejects short password
+PASS mismatch keeps old password
+PASS successful change confirmation
+PASS password survives reload and invalidates old password
+PASS new password login
+PASS exit cancels login
+PASS read saved password file
+PASS password not stored in plaintext
+PASS write corrupt test file
+PASS corrupt file does not restore default password
+ADMIN_TESTS_PASS
+PASS temporary directory
+PASS unique photo filenames and Unicode paths: 
+PASS saved photo decodes
+PASS album lists saved photos
+PASS empty photo rejected
+PASS relative directory rejected
+PASS model load: 
+PASS face fixture decodes
+PASS empty gallery is distinct from unknown person
+PASS enroll: 已登记 测试人员：1 张照片；本地库共 1 张
+PASS multiple samples per name
+PASS enrolled fixture matches
+PASS unregistered fixture is stranger
+PASS identity database reload
+PASS persisted feature matches
+PASS no-face enrollment rejected
+PASS no face reported explicitly
+PASS empty name rejected
+PASS missing model rejected
+PASS unloaded model is an error
+PASS open test database
+PASS corrupt database rejected
+PHOTO_FACE_TESTS_PASS

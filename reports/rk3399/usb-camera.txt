@@ -1,0 +1,51 @@
+rkisp1-statistics (platform: rkisp1):
+	/dev/video3
+	/dev/video4
+	/dev/video8
+	/dev/video9
+
+rkisp1_mainpath (platform:ff910000.rkisp1):
+	/dev/video0
+	/dev/video1
+	/dev/video2
+
+rkisp1_mainpath (platform:ff920000.rkisp1):
+	/dev/video5
+	/dev/video6
+	/dev/video7
+
+rkisp1 (platform:rkisp1):
+	/dev/media0
+	/dev/media1
+
+USB2.0 PC CAMERA (usb-fe3c0000.usb-1):
+	/dev/video10
+	/dev/video11
+	/dev/media2
+
+Bus 004 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+Bus 003 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+Bus 002 Device 001: ID 1d6b:0001 Linux Foundation 1.1 root hub
+Bus 001 Device 002: ID 18ec:3399 Arkmicro Technologies Inc. USB2.0 PC CAMERA
+Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+Bus 006 Device 001: ID 1d6b:0001 Linux Foundation 1.1 root hub
+Bus 005 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+总用量 0
+lrwxrwxrwx 1 root root 13 11月  9 00:03 usb-ARKMICRO_USB2.0_PC_CAMERA-video-index0 -> ../../video10
+lrwxrwxrwx 1 root root 13 11月  9 00:03 usb-ARKMICRO_USB2.0_PC_CAMERA-video-index1 -> ../../video11
+crw-rw----+ 1 root video 81,  0 11月  8 21:51 /dev/video0
+crw-rw----+ 1 root video 81,  1 11月  8 21:51 /dev/video1
+crw-rw----+ 1 root video 81, 14 11月  9 00:03 /dev/video10
+crw-rw----+ 1 root video 81, 15 11月  9 00:03 /dev/video11
+crw-rw----+ 1 root video 81,  2 11月  8 21:51 /dev/video2
+crw-rw----+ 1 root video 81,  3 11月  8 21:51 /dev/video3
+crw-rw----+ 1 root video 81,  4 11月  8 21:51 /dev/video4
+crw-rw----+ 1 root video 81,  5 11月  8 21:51 /dev/video5
+crw-rw----+ 1 root video 81,  6 11月  8 21:51 /dev/video6
+crw-rw----+ 1 root video 81,  7 11月  8 21:51 /dev/video7
+crw-rw----+ 1 root video 81,  8 11月  8 21:51 /dev/video8
+crw-rw----+ 1 root video 81,  9 11月  8 21:51 /dev/video9
+lrwxrwxrwx  1 root root       6 11月  8 21:51 /dev/video-camera0 -> video5
+-rw-rw----  1 root video      4 11月  8 21:51 /dev/video-dec0
+-rw-r--r--  1 root video      4 11月  8 21:51 /dev/video-enc0
+-rwxr-xr-x 1 pi pi 349448 11月  9 00:03 /home/pi/work/qt/FruitDetect2/build-agent-release/bin/FruitDetect2

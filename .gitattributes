@@ -1,0 +1,47 @@
+# 默认自动处理换行
+* text=auto
+
+# ===== 源码与文档：入库统一 LF，Windows 检出转 CRLF =====
+*.cpp   text eol=lf
+*.h     text eol=lf
+*.hpp   text eol=lf
+*.c     text eol=lf
+*.md    text
+*.txt   text
+*.json  text
+*.pro   text eol=lf
+*.pri   text eol=lf
+*.ui    text
+*.cmake text eol=lf
+CMakeLists.txt text eol=lf
+
+# ===== Shell 脚本必须 LF，否则板端 bash 无法执行 =====
+*.sh    text eol=lf
+
+# ===== PowerShell 脚本用 CRLF =====
+*.ps1   text eol=crlf
+
+# ===== 二进制文件：禁止换行转换与文本 diff =====
+*.mnn   binary
+*.onnx  binary
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.ico   binary
+*.dll   binary
+*.so    binary
+*.lib   binary
+*.a     binary
+*.exe   binary
+*.pdf   binary
+*.docx  binary
+*.zip   binary
+*.rar   binary
+
+# =====  linguist 语言统计：排除第三方与文档，让 GitHub 语言条只统计自有代码 =====
+third_party/**    linguist-vendored
+scripts/board-env/** linguist-vendored
+docs/**           linguist-documentation
+*.md              linguist-documentation
+reports/**        linguist-generated
+tests/fixtures/** linguist-generated

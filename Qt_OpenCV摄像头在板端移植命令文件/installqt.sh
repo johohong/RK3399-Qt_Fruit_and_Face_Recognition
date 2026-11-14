@@ -1,0 +1,9 @@
+sudo apt install -y qt5-default
+sudo apt install -y qtbase5-dev
+sudo apt install -y qtchooser
+sudo apt install -y qt5-qmake
+sudo apt install -y qtbase5-dev-tools
+sudo apt install -y libqt5gui5
+sudo apt install -y libqt5widgets5
+sudo apt install -y libqt5core5a
+sudo apt install -y libqt5network5

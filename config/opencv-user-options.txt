@@ -1,0 +1,38 @@
+# User-supplied OpenCV build options. Reference only; not executed by the application build.
+# Source directory for `cmake ..` must be the actual OpenCV source tree.
+cmake .. \
+    -DCMAKE_BUILD_TYPE=Release \
+    -DCMAKE_INSTALL_PREFIX=/usr/local \
+    -DCMAKE_C_COMPILER=gcc \
+    -DCMAKE_CXX_COMPILER=g++ \
+    -DCMAKE_C_FLAGS="-mcpu=cortex-a72.cortex-a53+crypto+crc -mtune=cortex-a72.cortex-a53" \
+    -DCMAKE_CXX_FLAGS="-mcpu=cortex-a72.cortex-a53+crypto+crc -mtune=cortex-a72.cortex-a53" \
+    -DENABLE_NEON=ON \
+    -DCPU_BASELINE=NEON \
+    -DCPU_DISPATCH=NEON \
+    -DWITH_OPENMP=ON \
+    -DWITH_OPENCL=OFF \
+    -DWITH_GSTREAMER=ON \
+    -DWITH_FFMPEG=ON \
+    -DWITH_V4L=ON \
+    -DWITH_GTK=OFF \
+    -DWITH_OPENGL=OFF \
+    -DOPENCV_ENABLE_NONFREE=OFF \
+    -DOPENCV_EXTRA_MODULES_PATH=/home/pi/work/opencv_contrib-4.8.0/modules \
+    -DBUILD_EXAMPLES=OFF \
+    -DBUILD_TESTS=OFF \
+    -DBUILD_PERF_TESTS=OFF \
+    -DBUILD_DOCS=OFF \
+    -DBUILD_opencv_python3=OFF \
+    -DBUILD_opencv_python2=OFF \
+    -DBUILD_opencv_apps=ON \
+    -DBUILD_opencv_dnn=ON \
+    -DBUILD_opencv_face=OFF \
+    -DBUILD_opencv_wechat_qrcode=OFF \
+    -DBUILD_opencv_xfeatures2d=OFF \
+    -DBUILD_SHARED_LIBS=ON \
+    -DCMAKE_SKIP_RPATH=OFF \
+    -DCMAKE_INSTALL_RPATH=/usr/local/lib \
+    -DCMAKE_INSTALL_RPATH_USE_LINK_PATH=ON \
+    -DOPENCV_GENERATE_PKGCONFIG=ON
+# For the new face feature, verify objdetect is enabled; add -DBUILD_opencv_objdetect=ON if rebuilding.

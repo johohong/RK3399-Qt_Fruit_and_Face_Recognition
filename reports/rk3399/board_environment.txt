@@ -1,0 +1,93 @@
+
+=== IDENTITY ===
+用户id=1000(pi) 组id=1000(pi) 组=1000(pi),4(adm),20(dialout),24(cdrom),27(sudo),29(audio),30(dip),44(video),46(plugdev),50(staff),101(systemd-journal),105(input),107(render),108(bluetooth),111(netdev),115(pulse-access)
+Linux NanoPC-T4 4.19.232 #48 SMP Tue Nov 7 13:33:55 CST 2023 aarch64 GNU/Linux
+PRETTY_NAME="Debian GNU/Linux 11 (bullseye)"
+NAME="Debian GNU/Linux"
+VERSION_ID="11"
+VERSION="11 (bullseye)"
+VERSION_CODENAME=bullseye
+ID=debian
+HOME_URL="https://www.debian.org/"
+SUPPORT_URL="https://www.debian.org/support"
+BUG_REPORT_URL="https://bugs.debian.org/"
+
+=== TOOLS ===
+/usr/bin/gcc
+/usr/bin/g++
+/usr/bin/cmake
+/usr/bin/qmake
+/usr/bin/pkg-config
+/usr/bin/python3
+/usr/bin/unzip
+g++ (Debian 10.2.1-6) 10.2.1 20210110
+cmake version 3.18.4
+5.15.2
+
+=== LIBRARY CONFIGURATIONS ===
+/home/pi/work/mnn/include/MNN/MNNDefine.h
+/home/pi/work/mnn/include/MNN/Interpreter.hpp
+/home/pi/work/mnn/build/libMNN.so
+/home/pi/work/opencv-4.8.0/build/unix-install/OpenCVConfig.cmake
+/home/pi/work/opencv-4.8.0/build/OpenCVConfig.cmake
+/usr/local/lib/libMNN.so
+/usr/local/lib/cmake/opencv4/OpenCVConfig.cmake
+/usr/local/include/MNN/MNNDefine.h
+/usr/local/include/MNN/Interpreter.hpp
+
+=== PROJECT ===
+总用量 20
+drwxr-xr-x 5 pi pi 4096 11月  8 23:46 .
+drwxr-xr-x 5 pi pi 4096 11月  8 23:41 ..
+drwxr-xr-x 5 pi pi 4096 11月  8 23:45 build-FruitDetect2-Desktop-Debug
+drwxr-xr-x 5 pi pi 4096 11月  8 23:52 build-FruitDetect2-Desktop-Release
+drwxr-xr-x 2 pi pi 4096 11月  8 23:52 FruitDetect2
+/home/pi/work/qt/FruitDetect2/FruitDetect2/CMakeLists.txt
+
+=== RESOURCES ===
+文件系统        容量  已用  可用 已用% 挂载点
+overlay          11G  3.2G  6.6G   33% /
+               total        used        free      shared  buff/cache   available
+内存：      3.8Gi       650Mi       2.4Gi        37Mi       756Mi       2.9Gi
+交换：         0B          0B          0B
+
+=== DISPLAY AND VIDEO ===
+DISPLAY=
+XAUTHORITY=
+pi       tty7         2026-11-08 21:51 (:0)
+pi       pts/0        2026-11-08 21:51 (192.168.1.233)
+crw-rw----+ 1 root video 81, 0 11月  8 21:51 /dev/video0
+crw-rw----+ 1 root video 81, 1 11月  8 21:51 /dev/video1
+crw-rw----+ 1 root video 81, 2 11月  8 21:51 /dev/video2
+crw-rw----+ 1 root video 81, 3 11月  8 21:51 /dev/video3
+crw-rw----+ 1 root video 81, 4 11月  8 21:51 /dev/video4
+crw-rw----+ 1 root video 81, 5 11月  8 21:51 /dev/video5
+crw-rw----+ 1 root video 81, 6 11月  8 21:51 /dev/video6
+crw-rw----+ 1 root video 81, 7 11月  8 21:51 /dev/video7
+crw-rw----+ 1 root video 81, 8 11月  8 21:51 /dev/video8
+crw-rw----+ 1 root video 81, 9 11月  8 21:51 /dev/video9
+lrwxrwxrwx  1 root root      6 11月  8 21:51 /dev/video-camera0 -> video5
+-rw-rw----  1 root video     4 11月  8 21:51 /dev/video-dec0
+-rw-r--r--  1 root video     4 11月  8 21:51 /dev/video-enc0
+rkisp1-statistics (platform: rkisp1):
+	/dev/video3
+	/dev/video4
+	/dev/video8
+	/dev/video9
+
+rkisp1_mainpath (platform:ff910000.rkisp1):
+	/dev/video0
+	/dev/video1
+	/dev/video2
+
+rkisp1_mainpath (platform:ff920000.rkisp1):
+	/dev/video5
+	/dev/video6
+	/dev/video7
+
+rkisp1 (platform:rkisp1):
+	/dev/media0
+	/dev/media1
+
+
+BOARD_INSPECTION_COMPLETE

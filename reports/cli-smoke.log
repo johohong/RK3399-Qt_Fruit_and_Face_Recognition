@@ -1,0 +1,4 @@
+MODEL_LOADED E:/Tool/Qt/Project/FruitDetect2/build-cmake-check/bin/models/trained_fp32.mnn protocol= ultralytics_single_head input=[1,3,640,640]
+output=[1,7,8400]
+DETECTION_PASS 1 30.3553 ms
+The device supports: i8sdot:0, fp16:0, i8mm: 0, sve2: 0, sme2: 0

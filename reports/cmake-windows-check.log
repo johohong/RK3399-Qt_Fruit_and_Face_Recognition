@@ -1,0 +1,87 @@
+**********************************************************************
+** Visual Studio 2017 Developer Command Prompt v15.9.83
+** Copyright (c) 2017 Microsoft Corporation
+**********************************************************************
+[vcvarsall.bat] Environment initialized for: 'x64'
+-- Found OpenCV: E:/Tool/opencv-4.8.0-windows/opencv/build (found suitable version "4.8.0", minimum required is "4.8") found components:  core imgproc imgcodecs videoio dnn objdetect 
+-- Looking for C++ include pthread.h
+-- Looking for C++ include pthread.h - not found
+-- Found Threads: TRUE  
+-- OpenCV 4.8.0: E:/Tool/opencv-4.8.0-windows/opencv/build/x64/vc16/lib
+-- MNN: E:/Tool/Qt/Project/FruitDetect2/FruitDetect2/third_party/mnn-windows/lib/MNN.lib
+-- CPU inference; Qt GUI; platform camera backend; no model retraining
+-- Configuring done
+-- Generating done
+-- Build files have been written to: E:/Tool/Qt/Project/FruitDetect2/build-cmake-check
+Scanning dependencies of target FruitCore_autogen
+[  3%] Automatic MOC for target FruitCore
+[  3%] Built target FruitCore_autogen
+Scanning dependencies of target FruitCore
+[  6%] Building CXX object CMakeFiles/FruitCore.dir/src/detector.cpp.obj
+detector.cpp
+[ 10%] Building CXX object CMakeFiles/FruitCore.dir/src/postprocess.cpp.obj
+postprocess.cpp
+[ 13%] Building CXX object CMakeFiles/FruitCore.dir/src/io.cpp.obj
+io.cpp
+[ 16%] Building CXX object CMakeFiles/FruitCore.dir/FruitCore_autogen/mocs_compilation.cpp.obj
+mocs_compilation.cpp
+[ 20%] Linking CXX static library FruitCore.lib
+[ 20%] Built target FruitCore
+Scanning dependencies of target FruitModels
+[ 20%] Built target FruitModels
+Scanning dependencies of target FruitDetect2_autogen
+[ 23%] Automatic MOC for target FruitDetect2
+[ 23%] Built target FruitDetect2_autogen
+Scanning dependencies of target FruitDetect2
+[ 26%] Building CXX object CMakeFiles/FruitDetect2.dir/src/main.cpp.obj
+main.cpp
+[ 30%] Building CXX object CMakeFiles/FruitDetect2.dir/src/mainwindow.cpp.obj
+mainwindow.cpp
+[ 33%] Building CXX object CMakeFiles/FruitDetect2.dir/src/worker.cpp.obj
+worker.cpp
+[ 36%] Building CXX object CMakeFiles/FruitDetect2.dir/src/photos.cpp.obj
+photos.cpp
+[ 40%] Building CXX object CMakeFiles/FruitDetect2.dir/src/album.cpp.obj
+album.cpp
+[ 43%] Building CXX object CMakeFiles/FruitDetect2.dir/src/face_engine.cpp.obj
+face_engine.cpp
+[ 46%] Building CXX object CMakeFiles/FruitDetect2.dir/src/face_dialog.cpp.obj
+face_dialog.cpp
+[ 50%] Building CXX object CMakeFiles/FruitDetect2.dir/FruitDetect2_autogen/mocs_compilation.cpp.obj
+mocs_compilation.cpp
+[ 53%] Linking CXX executable bin\FruitDetect2.exe
+[ 53%] Built target FruitDetect2
+Scanning dependencies of target FruitDetect2Cli_autogen
+[ 56%] Automatic MOC for target FruitDetect2Cli
+[ 56%] Built target FruitDetect2Cli_autogen
+Scanning dependencies of target FruitDetect2Cli
+[ 60%] Building CXX object CMakeFiles/FruitDetect2Cli.dir/src/cli.cpp.obj
+cli.cpp
+[ 63%] Building CXX object CMakeFiles/FruitDetect2Cli.dir/FruitDetect2Cli_autogen/mocs_compilation.cpp.obj
+mocs_compilation.cpp
+[ 66%] Linking CXX executable bin\FruitDetect2Cli.exe
+[ 66%] Built target FruitDetect2Cli
+Scanning dependencies of target AdminTests_autogen
+[ 70%] Automatic MOC for target AdminTests
+[ 70%] Built target AdminTests_autogen
+Scanning dependencies of target AdminTests
+[ 73%] Building CXX object CMakeFiles/AdminTests.dir/tests/admin_test.cpp.obj
+admin_test.cpp
+[ 76%] Building CXX object CMakeFiles/AdminTests.dir/AdminTests_autogen/mocs_compilation.cpp.obj
+mocs_compilation.cpp
+[ 80%] Linking CXX executable bin\AdminTests.exe
+[ 80%] Built target AdminTests
+Scanning dependencies of target PhotoFaceTests_autogen
+[ 83%] Automatic MOC for target PhotoFaceTests
+[ 83%] Built target PhotoFaceTests_autogen
+Scanning dependencies of target PhotoFaceTests
+[ 86%] Building CXX object CMakeFiles/PhotoFaceTests.dir/tests/photo_face_test.cpp.obj
+photo_face_test.cpp
+[ 90%] Building CXX object CMakeFiles/PhotoFaceTests.dir/src/face_engine.cpp.obj
+face_engine.cpp
+[ 93%] Building CXX object CMakeFiles/PhotoFaceTests.dir/src/photos.cpp.obj
+photos.cpp
+[ 96%] Building CXX object CMakeFiles/PhotoFaceTests.dir/PhotoFaceTests_autogen/mocs_compilation.cpp.obj
+mocs_compilation.cpp
+[100%] Linking CXX executable bin\PhotoFaceTests.exe
+[100%] Built target PhotoFaceTests
